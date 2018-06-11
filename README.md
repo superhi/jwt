@@ -22,4 +22,12 @@ You will get a password request, use your system password (it will not appear in
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/superhi/jwt/master/bin/generate.rb)"
 ```
 
-This will run a command that will ask for your Team ID, Key ID and the contents of your certificate (just open the certificate in a text editor and copy and paste it in). After entering all three, you should get a token to use.
+This will run a command that will ask for your Team ID, Key ID and the contents of your certificate (just open the certificate in a text editor and copy and paste it in). 
+
+Something like this...
+
+![screenshot](screenshot.png)
+
+After entering all three, you should get a token to use. It will also be copied to your clipboard.
+
+If you're curious about how the code works OR if you're worried about us stealing your secrets, please look over the files in here!
